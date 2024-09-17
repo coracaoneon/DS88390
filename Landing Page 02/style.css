@@ -120,3 +120,127 @@ p{
 }
 
 }
+
+/*Sobre*/
+.about, .mission, .team{
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2, h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p{
+    font-size: 10px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.mission-values{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mission-item{
+    flex: 1;
+    min-width: 200px;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px white;
+    text-align: 10px;
+}
+
+.mission-item h3{
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.mission-item p, .mission-item ul{
+    color: #555;
+    font-size: 16px;
+}
+
+.mission-item ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    height: 100%;
+}
+
+/*Contato*/
+
+.contact{
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact label{
+    text-align: left;
+    font-weight: bold;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact textarea{
+    resize: none; /*Desabilita o redimensionamento*/
+}
+
+.contact button{
+    padding: 10px 15px;
+    background-color: #333;
+
+}
+
+.contact button:hover{
+    background-color: ;
+}
+
+@media (max-width:768px){
+    .mission-values{
+        flex-direction: column;
+    }
+    h1, h2 {
+        font-size: 28px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
