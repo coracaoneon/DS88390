@@ -138,12 +138,12 @@ nav ul li a:hover {
   }
 
   footer {
-    background-color: greenyellow; 
+    background-color: green; 
     text-align: center; 
     padding: 20px 0; 
     font-size: 14px; 
     color: #333; 
-    border-top: 4px solid green; 
+    border-top: 4px solid greenyellow; 
   }
 
   /*SOBRE*/
@@ -166,6 +166,39 @@ nav ul li a:hover {
     line-height: 1.6;
   }
 
+  /*SERVIÇOS*/
+
+  .servicos h1{
+  color: greenyellow;
+  font-size: 36px;
+  }
+
+  .servicos h2 {
+    color: #333;
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 4px;
+
+  }
+
+  .servicos ul li{
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  }
+
+  .servicos h3 {
+    margin-top: 14px;
+    margin-bottom: 4px;
+    color: #333;
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+  }
+
+
+  /*GERAL*/
   .servicos, .sobre, .contato {
     padding: 40px 20px; 
     text-align: center; 
@@ -173,7 +206,6 @@ nav ul li a:hover {
 
   .servicos h1, .sobre h1, .contato h1 {
     font-size: 36px; 
-    color: greenyellow; 
     margin-bottom: 30px; 
   }
 
@@ -186,6 +218,10 @@ nav ul li a:hover {
     max-width: 600px; 
     margin: 0 auto; 
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .contato h1{
+    color: greenyellow;
   }
   
   .contato label {
@@ -250,4 +286,9 @@ nav ul li a:hover {
     margin-right: 10px; 
     vertical-align: middle; 
   }
+
+
+
+
+  
   
