@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #f0f0f0;
+    padding: 20px; /*Adiciona um preenchimento em torno do conteúdo do corpo*/
+}
+
+.container{
+    max-width: 800px; /*Define uma largura máxima para o container*/
+    margin: 0 auto; /*Centraliza o container horizontalmente*/
+    background-color: #fff; /*Define a cor de fundo do container*/
+    padding: 20px; /*Adiciona preenchimento interno ao container*/
+    border-radius: 8px; /*Arredonda os cantos do container*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2{
+    color: #333;
+}
+
+form input, form button{
+    margin: 5px; /*Adiciona margem entre os elementos do formulário*/
+    padding: 8px; /*Define o preenchimento interno dos inputs e botões para torná-los maiores*/
+    font-size: 16px; /*Define o tamanho da fonte dentro dos inputs e botões*/
+}
+
+form button{
+    background-color: green; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    border: none; /* Remove as bordas padrão do botão */
+    cursor: pointer; /* Define o cursor do mouse como uma mãozinha (indicando que é clicável) */
+}
+
+ul{
+    list-style-type: none; /* Remove os marcadores de lista padrão */
+    padding: 0;  /* Remove o preenchimento padrão da lista */
+}
+
+li {
+    padding: 10px; /* Adiciona preenchimento interno aos itens da lista */
+    border-bottom: 1px solid #ddd; /* Adiciona uma borda inferior aos itens da lista para separá-los */
+}
+
+li:last-child {
+    border-bottom: none; /* Remove a borda inferior do último item */
+}
+
